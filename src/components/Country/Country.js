@@ -21,9 +21,11 @@ return(
             desh.map(ektaDesh => console.log(ektaDesh))
         }
         {
-        desh.map(ektaDesh => <ChildCountry  name={ektaDesh.name.common} 
+        desh.map(ektaDesh => <ChildCountry
+            country = {ektaDesh}
+            name={ektaDesh.name.common} 
             p={ektaDesh.population}
-             area={ektaDesh.area}
+              area={ektaDesh.area} region={ektaDesh.region}
              ></ChildCountry> )
         }
     </div>
