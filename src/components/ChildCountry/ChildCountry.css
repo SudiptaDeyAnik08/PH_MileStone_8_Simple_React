@@ -4,3 +4,7 @@
     margin: 30px;
     background-color: rgb(176, 166, 164);
 }
+
+.ChildCountry img{
+    width: 200px;
+}
